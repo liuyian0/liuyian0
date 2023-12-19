@@ -1,8 +1,10 @@
 package duixiang;
 
 public class Animal {
+    //成员变量
 private String name;
 private int age;
+    //提供get/set方法
 public  void setName (String name){
     this.name = name;
 }
