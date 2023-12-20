@@ -1,4 +1,4 @@
-package duixiang;
+package com.liu.day01.duixiang;
 
 public class StudentTest {
 public static void main(String[] args) {

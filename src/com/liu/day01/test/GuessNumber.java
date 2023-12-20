@@ -1,7 +1,8 @@
+package com.liu.day01.test;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Demo01 {
+public class GuessNumber{
 public static void main(String[] args) {
   Random r = new Random();
   int num = r.nextInt(100)+1;

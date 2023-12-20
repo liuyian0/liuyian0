@@ -1,3 +1,4 @@
+package com.liu.day01.test;
 import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
 
 public class MethodTest {

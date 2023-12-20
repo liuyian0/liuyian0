@@ -1,4 +1,4 @@
-package duixiang;
+package com.liu.day01.duixiang;
 
  public class Pupil {
      private String name;
@@ -13,6 +13,4 @@ package duixiang;
              public void show(){
                  System.out.println(name+","+age);
                  }
-                 }
-                 
- }
+                      }

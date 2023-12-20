@@ -1,3 +1,4 @@
+package com.liu.day01.test;
 public class PrintArray {
     public static void main(String[] args) {
         int[] arr = {1,2,9,8,6,5,0};

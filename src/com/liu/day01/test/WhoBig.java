@@ -1,3 +1,5 @@
+package com.liu.day01.test;
+
 public class WhoBig {
 public static void main(String[] args) {
   int arr[] = {1,2,9,90,89,68,55,766};
