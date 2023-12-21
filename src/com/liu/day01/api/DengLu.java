@@ -6,11 +6,14 @@ public static void main(String[] args) {
   String username = "zhangsan";
   String password = "zhaosi666";
   for (int i = 0; i < 3; i++) {
+  //键入用户名
   Scanner s = new Scanner(System.in);
   System.out.println("请输入用户名：");
-  String usernameInput = s.next();
+  //键入密码
+  String usernameInput = s.nextLine();
   System.out.println("请输入密码：");
-  String passwordInput = s.next();
+  String passwordInput = s.nextLine();
+  //用户名，密码一致，则登录成功
   if (usernameInput.equals(username) && passwordInput.equals(password)) {
     System.out.println("登录成功。。。");
     break;
