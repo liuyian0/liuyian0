@@ -13,4 +13,11 @@ package com.liu.day01.duixiang;
              public void show(){
                  System.out.println(name+","+age);
                  }
+    //toString()
+    @Override
+    public String toString(){
+        return "Pupil{" + 
+                "name='" + name + '\'' + 
+                ",age='" + age + '\''+'}' ;
+    }
                       }
