@@ -1,6 +1,7 @@
 package com.liu.day01.AbstractTest;
 
 public abstract class Card {
+    
     // 成员变量
     private String username;
     private double leftMoney;
