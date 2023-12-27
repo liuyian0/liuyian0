@@ -6,5 +6,5 @@ public class CardTest{
         gc.pay(300);
         SilverCard sc = new SilverCard("赵四",5000);
         sc.pay(300);
-}
+    }
 }
