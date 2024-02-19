@@ -3,6 +3,7 @@ package com.liu.day01.set;
 import java.util.HashSet;
 /*
 * HashSet是Set接口的一个实现类，存储的元素不能重复，元素无序
+* LinkedHashSet，元素有序
 * */
 public class HashSetTest {
     public static void main(String[] args) {
