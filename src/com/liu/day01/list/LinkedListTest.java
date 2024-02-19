@@ -2,7 +2,7 @@ package com.liu.day01.list;
 
 import java.util.LinkedList;
 
-public class ListTest {
+public class LinkedListTest {
     public static void main(String[] args) {
         /*LinkedList是List的子类，LinkedList集合数据存储的结构是链表结构，方便元素添加和删除
         addFirst,addLast,getFirst,getLast,removeFirst,removeLast,pop从栈中弹出一个元素(栈中不再存在该元素)，push将元素推入栈，isEmpty
