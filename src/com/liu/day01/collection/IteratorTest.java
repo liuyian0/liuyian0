@@ -24,6 +24,7 @@ public class IteratorTest {
        while (it.hasNext()){
            System.out.println(it.next());
        }
+
        //使用while循环遍历集合用快捷键：itit
 
         //void remove()删除当前元素
