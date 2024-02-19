@@ -17,6 +17,7 @@ public class LinkedListTest {
         System.out.println(list.getFirst());
         list.removeFirst();
         System.out.println(list.pop());
+        list.push("张三");
         System.out.println(list);
     }
 }
