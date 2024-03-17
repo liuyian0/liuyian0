@@ -1,0 +1,2 @@
+当资源文件是以.properties结尾的文件时，可以使用java.util.ResourceBundle来读取该配置文件（该文件需要保存在src目录下）
+能够方便的读取配置文件，代替Properties的load方法
