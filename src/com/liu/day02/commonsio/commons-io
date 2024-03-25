@@ -1,0 +1,11 @@
+commons-io包的使用
+1.下载commons-io相关jar包
+2.在项目根目录新建lib文件夹，将第三方jar包复制到lib目录下，右键单击，选择add as library...
+
+IOUtils类
+public static int copy(InputStream in,OutputStream out)复制大小在2G以下的文件
+public static int copyLarge(InputStream in,OutputStream out)复制大小在2G以上的文件
+
+FileUtils类
+public static void copyFileToDirectory(File srcFile,File destFile)复制文件到另一个目录下
+public static void copyDirectoryToDirectory(File srcDir,file destDir)文件夹复制
