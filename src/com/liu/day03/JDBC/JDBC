@@ -1,0 +1,14 @@
+JDBC获取连接步骤：
+1.导入MySQL驱动jar包
+2.注册驱动
+Class.forName("com.mysql.jdbc.Driver")加载驱动
+此时会调用Driver中的静态代码块，其静态代码块中注册了一次驱动，不需要自己注册驱动
+3.获取连接
+static Connection getConnection(String url,String user,String password)
+连接到指定数据库url，并返回连接
+url格式：
+协议名：子协议：//服务器名或者ip地址：端口号/数据库名？参数=参数值
+jdbc:mysql://localhost:3306/liu
+
+Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/testnew","root","1234");
+连接本地数据库可以简写为"jdbc:mysql:///testnew"
