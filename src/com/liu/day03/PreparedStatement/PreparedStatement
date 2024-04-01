@@ -1,0 +1,3 @@
+sql注入问题：用户在输入参数时，在参数中添加一些sql关键字，达到改变sql运行结果的目的
+登录问题
+PreparedStatement解决sql注入问题
