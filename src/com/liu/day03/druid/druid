@@ -1,0 +1,8 @@
+druid连接池的使用：
+1.导入核心jar包（druid-1.0.9.jar）
+2.在根目录或者src目录下创建druid的配置文件druid.properties(文件名随意)
+3.加载properties文件的内容到Properties对象中
+4.创建Druid连接池，使用配置文件中的参数
+5.从Druid连接池中取出连接
+6.执行sql语句
+7.关闭资源
