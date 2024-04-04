@@ -14,8 +14,6 @@ import java.util.Properties;
 import java.util.concurrent.CountDownLatch;
 
 public class BrandTest {
-    public static void main(String[] args) throws Exception{
-    }
     @Test
     //添加品牌
     public void create() throws Exception{

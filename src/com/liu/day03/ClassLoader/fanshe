@@ -1,0 +1,25 @@
+反射（本质上是对类进行解剖，获取构造方法，成员变量，成员方法）
+构造方法：可以创建对象
+成员方法：可以调用执行
+成员变量：赋值、取值
+
+必要条件：
+.class文件由类加载器读取并创建Class对象，构造方法，成员变量，成员方法就存储在Class对象中
+获取Class类对象的方式：
+1.类型名.class   eg：Class clz = String.class；
+2.对象.getClass（）  eg：通常用在方法中public void method（Student s）{Class clz = s.getClass（）；}
+3.Class.forName（String className）//className是全路径类名（包名+类型名）
+eg：通常使用在读取配置文件pro.properties文件中className=com.liu.Student
+读取： ResourceBundler r = ResourceBundler.getBundler（"pro"）;
+Class clz = Class.forName(r.getString("className"));
+
+反射技术的作用：
+1.不用使用new关键字就可以创建对象
+2.不用使用“对象名.方法”的形式就可以调用方法
+3.不用使用“对象名.属性”的形式就可以给属性赋值、取值
+反射技术可以做到对私有成员进行操作
+
+Class类常用方法：
+String getSimpleName()：获取类名
+String getName（）：获取类全名（包名+类名）
+T newInstance（）：创建Class对象关联类的对象（前提：类中有一个无参构造方法）
