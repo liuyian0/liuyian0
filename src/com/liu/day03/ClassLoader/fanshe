@@ -23,3 +23,25 @@ Class类常用方法：
 String getSimpleName()：获取类名
 String getName（）：获取类全名（包名+类名）
 T newInstance（）：创建Class对象关联类的对象（前提：类中有一个无参构造方法）
+
+构造器
+掌握使用Class对象获取构造器Constructor对象
+步骤：
+1.先获取Class对象
+2.使用Class对象中的方法，获取Constructor对象
+2.1 获取public修饰的构造方法Constructor getConstructor(Class...parameterTypes)
+2.2 获取非public修饰的构造方法Constructor getDeclaredConstructor(Class...parameterTypes)
+3.使用Constructor对象，实例化类
+
+掌握使用（无参，有参，私有）构造器创建对象
+
+
+
+
+
+
+
+
+
+
+
