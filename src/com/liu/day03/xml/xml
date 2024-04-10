@@ -1,0 +1,34 @@
+eXtensible Markup Language可扩展的标记语言
+作用：为了存储维护数据
+
+XML的组成：声明和元素
+文档声明(必须在xml文档的首行首列)
+<?xml version="1.0" encoding="UTF-8"?>
+
+元素（标签、标记）
+格式一：<person>标签体</person>
+格式二：<person/>没有标签体的标签（空标签）
+
+转义字符
+<    &lt;    less than
+>    &gt;    greater than
+"    &quot;  quotation
+'    &apos;  apostrophe
+&    &amp;   ampersand
+但是大量转义字符出现时，文档的可读性将大大降低，此时就要使用CDATA段了
+格式
+<![CDATA[
+文本数据 <>&;"'
+]]>
+快捷：CD回车
+
+DTD(Document Type Definition)约束  文档类型定义，用来约束XML文档
+规定XML文档中元素的名称，子元素的名称及顺序，元素的属性等。
+步骤：
+1.在项目下创建一个dtd文件夹
+2.该目录下创建.xml文件
+3.在.xml文件中添加dtd约束
+
+Schema约束（了解）
+文件扩展名为.xsd
+

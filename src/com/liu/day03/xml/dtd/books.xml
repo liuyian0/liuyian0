@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--添加dtd约束
+
+-->
+<!DOCTYPE books [
+        <!--约束根标签book*表示books标签下可以有多个book子标签-->
+        <!ELEMENT books (book*)>
+        <!--表示book标签下出现name,author,price标签-->
+<!ELEMENT book (name,author,price)>
+        <!--表示name、author...标签中出现的内容是文本-->
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT author (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        ]>
+
+
+<books>
+    <book>
+        <name>java从入门到放弃</name>
+        <author>张三</author>
+        <price>9.9</price>
+    </book>
+    <book>
+        <name>python从入门到放弃</name>
+        <author>赵四</author>
+        <price>19.9</price>
+    </book>
+</books>

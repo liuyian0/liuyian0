@@ -1,7 +1,5 @@
 package com.liu.day03.zhujie;
 
-import com.liu.day03.ClassLoader.Student;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;

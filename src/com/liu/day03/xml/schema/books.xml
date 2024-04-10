@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<books xmlns="http://www.example.org/books"
+       xsi:schemaLocation="http://www.example.org/books books.xsd"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <book>
+        <name>面试宝典</name>
+        <author>锁哥</author>
+        <price>78.8</price>
+    </book>
+    <book>
+        <name>java从入门到精通</name>
+        <author>黑旋风</author>
+        <price>88.8</price>
+    </book>
+</books>
