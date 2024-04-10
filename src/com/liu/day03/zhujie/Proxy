@@ -1,0 +1,6 @@
+动态代理API
+
+Proxy类
+ClassLoader loader ：定义代理类的类加载器
+Class<?> interfaces ：代理类要实现的接口列表，要求与被代理类的接口一样
+InvocationHandler handle ：就是具体实现代理逻辑的接口
